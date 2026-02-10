@@ -10,45 +10,45 @@
 
     <form>
         <!-- Step 1-->
-        Your Name:
-        <input type="text">
+        <label for="name">Your Name:</label>
+        <input type="text" id="name">
         <br><br>
 
         <!-- Grade Level -->
         <p>Grade Level:</p>
-        <input name="grade" value="Freshman">
-        Freshman
+        <input id="freshman" name="grade" value="Freshman" type="radio">
+        <label for="freshman">Freshman</label>
       <br>
 
-        <input name="grade" value="Sophomore">
-       Sophomore
+        <input id="sophomore" name="grade" value="Sophomore" type="radio">
+       <label for="sophomore">Sophomore</label>
       <br>
 
-        <input name="grade" value="Junior">
-        Junior
+        <input id="junior" name="grade" value="Junior" type="radio">
+        <label for="junior">Junior</label>
       <br>
 
-        <input name="grade" value="Senior">
-        Senior
+        <input id="senior" name="grade" value="Senior" type="radio">
+        <label for="senior">Senior</label>
       <br><br>
 
         <!-- Interests -->
         <p>Interests:</p>
-        <input value="Sports">
-        Sports
+        <input id="sports" value="Sports" type="checkbox">
+        <label for="sports">Sports</label>
       <br>
 
-        <input  value="Music">
-        Music
+        <input id="music" value="Music" type="checkbox">
+        <label for="music">Music</label>
       <br>
 
-        <input value="Coding">
-        Coding
+        <input id="coding" value="Coding" type="checkbox">
+        <label for="coding">Coding</label>
       <br><br>
 
         <!-- Birthday -->
         <label for="birthday">Birthday:</label>
-        <input id="birthday">
+        <input id="birthday" type="date">
         <br><br>
 
         <button type="button" onclick="showProfile()">Submit</button>
