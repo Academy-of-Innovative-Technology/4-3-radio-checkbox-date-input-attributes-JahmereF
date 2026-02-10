@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Profile Form</title>
+</head>
+<body>
+
+    <h1>Student Profile</h1>
+
+    <form>
+        <!-- Step 1-->
+        Your Name:
+        <input type="text">
+        <br><br>
+
+        <!-- Grade Level -->
+        <p>Grade Level:</p>
+        <input name="grade" value="Freshman">
+        Freshman
+      <br>
+
+        <input name="grade" value="Sophomore">
+       Sophomore
+      <br>
+
+        <input name="grade" value="Junior">
+        Junior
+      <br>
+
+        <input name="grade" value="Senior">
+        Senior
+      <br><br>
+
+        <!-- Interests -->
+        <p>Interests:</p>
+        <input value="Sports">
+        Sports
+      <br>
+
+        <input  value="Music">
+        Music
+      <br>
+
+        <input value="Coding">
+        Coding
+      <br><br>
+
+        <!-- Birthday -->
+        <label for="birthday">Birthday:</label>
+        <input id="birthday">
+        <br><br>
+
+        <button type="button" onclick="showProfile()">Submit</button>
+    </form>
+
+    <p id="output"></p>
+
+    <script src="script.js"></script>
+</body>
+</html>
